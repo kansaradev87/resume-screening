@@ -26,6 +26,9 @@ def home():
         "service": "Resume Screening API",
         "endpoints": ["/health", "/api/screen"]
     }
+@app.get("/health")
+def health():
+    return {"ok": True}
 # Add project root to path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
