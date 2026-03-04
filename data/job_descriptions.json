@@ -1,0 +1,127 @@
+{
+  "software_engineer": {
+    "title": "Software Engineer",
+    "required_skills": [
+      "python",
+      "java",
+      "sql",
+      "git",
+      "data structures"
+    ],
+    "preferred_skills": [
+      "docker",
+      "kubernetes",
+      "aws",
+      "react",
+      "node.js",
+      "agile",
+      "ci/cd",
+      "mongodb",
+      "postgresql",
+      "typescript"
+    ],
+    "min_experience": 2,
+    "min_education": "bachelor",
+    "description": "We are looking for a Software Engineer with at least 2 years of experience. Required skills: python, java, sql, git, data structures. Preferred: docker, kubernetes, aws, react, node.js. Minimum education: Bachelor degree."
+  },
+  "data_scientist": {
+    "title": "Data Scientist",
+    "required_skills": [
+      "python",
+      "machine learning",
+      "statistics",
+      "sql",
+      "data analysis"
+    ],
+    "preferred_skills": [
+      "tensorflow",
+      "pytorch",
+      "pandas",
+      "numpy",
+      "data visualization",
+      "deep learning",
+      "nlp",
+      "scikit-learn",
+      "r",
+      "spark"
+    ],
+    "min_experience": 1,
+    "min_education": "master",
+    "description": "We are looking for a Data Scientist with at least 1 years of experience. Required skills: python, machine learning, statistics, sql, data analysis. Preferred: tensorflow, pytorch, pandas, numpy, data visualization. Minimum education: Master degree."
+  },
+  "web_developer": {
+    "title": "Web Developer",
+    "required_skills": [
+      "javascript",
+      "html",
+      "css",
+      "react",
+      "node.js"
+    ],
+    "preferred_skills": [
+      "typescript",
+      "vue",
+      "angular",
+      "mongodb",
+      "postgresql",
+      "docker",
+      "aws",
+      "agile",
+      "git",
+      "next.js"
+    ],
+    "min_experience": 1,
+    "min_education": "bachelor",
+    "description": "We are looking for a Web Developer with at least 1 years of experience. Required skills: javascript, html, css, react, node.js. Preferred: typescript, vue, angular, mongodb, postgresql. Minimum education: Bachelor degree."
+  },
+  "devops_engineer": {
+    "title": "DevOps Engineer",
+    "required_skills": [
+      "docker",
+      "kubernetes",
+      "aws",
+      "ci/cd",
+      "linux"
+    ],
+    "preferred_skills": [
+      "terraform",
+      "ansible",
+      "jenkins",
+      "python",
+      "bash",
+      "azure",
+      "gcp",
+      "monitoring",
+      "git",
+      "agile"
+    ],
+    "min_experience": 3,
+    "min_education": "bachelor",
+    "description": "We are looking for a DevOps Engineer with at least 3 years of experience. Required skills: docker, kubernetes, aws, ci/cd, linux. Preferred: terraform, ansible, jenkins, python, bash. Minimum education: Bachelor degree."
+  },
+  "ml_engineer": {
+    "title": "Machine Learning Engineer",
+    "required_skills": [
+      "python",
+      "machine learning",
+      "deep learning",
+      "tensorflow",
+      "sql"
+    ],
+    "preferred_skills": [
+      "pytorch",
+      "kubernetes",
+      "docker",
+      "nlp",
+      "computer vision",
+      "aws",
+      "spark",
+      "data pipeline",
+      "scikit-learn",
+      "numpy"
+    ],
+    "min_experience": 2,
+    "min_education": "master",
+    "description": "We are looking for a Machine Learning Engineer with at least 2 years of experience. Required skills: python, machine learning, deep learning, tensorflow, sql. Preferred: pytorch, kubernetes, docker, nlp, computer vision. Minimum education: Master degree."
+  }
+}
