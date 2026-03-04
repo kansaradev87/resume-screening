@@ -14,6 +14,12 @@ import numpy as np
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
+app = Flask(__name__)
+
+CORS(app, origins=[
+    "https://resume-screening-sandy.vercel.app"
+])
+
 # Add project root to path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
