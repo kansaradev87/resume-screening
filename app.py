@@ -49,8 +49,6 @@ except ImportError:
     print("WARNING: PyPDF2 not installed. PDF upload will not work.")
 
 
-app = Flask(__name__)
-CORS(app)
 
 # Global instances
 masker = PIIMasker()
